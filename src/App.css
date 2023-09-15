@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Nav{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background-color: lightgray;
+  position: fixed;
+  width: 100%;
+  
+}
+
+.Nav ul,li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
+  font-size: 26px;
+}
+/* .Nav ul,li:hover{
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+} */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.cloudLogo{
+  color: orangered;
+  font-size: 30px;
+}
+.clou{
+  color: orange;
+  /* font-size: 3px; */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about{
+  padding-top: 100px;
+  margin-left: 100px;
+}
+.about p{
+  width: 70%;
+  font-size: 22px;
+  /* line-height: 0rem; */
+}
+
+.cardd{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+
+
+
+.cardText{
+  text-align: center;
+}
+.compcard{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+
+}
+
+.trust{
+  margin-top: 90px;
+  margin-left:79px;
+}
+
+.ourMtext{
+  width: 500px;
+}
+
+.ourMissionMain{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.mainDivOurstory{
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ourMtext h3{
+  margin-left: 20px;
+}
+.ourStoryText{
+  width: 600px;
+}
+
+
+.cardText h3{
+  color: rgb(223, 90, 42);
+}
+
+.cardText h1{
+  font-style: bold;
+
+}
